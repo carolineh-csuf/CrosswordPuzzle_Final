@@ -2,7 +2,7 @@
 //  Color-Theme.swift
 //  TestFocus
 //
-//  Created by csuftitan on 5/2/23.
+//  Created by Caroline Ha on 5/2/23.
 //
 
 import Foundation

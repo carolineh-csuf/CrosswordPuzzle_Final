@@ -2,7 +2,7 @@
 //  CrosswordPuzzleApp.swift
 //  CrosswordPuzzle
 //
-//  Created by csuftitan on 5/18/23.
+//  Created by Caroline Ha on 5/18/23.
 //
 
 import SwiftUI

@@ -2,7 +2,7 @@
 //  ArrayShuffle.swift
 //  TestFocus
 //
-//  Created by csuftitan on 4/5/23.
+//  Created by Caroline Ha on 4/5/23.
 //
 
 import Foundation

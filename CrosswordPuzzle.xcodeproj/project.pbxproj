@@ -41,6 +41,7 @@
 		7AFA321D2A1720C500AC45BE /* CrosswordBlackBlockView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CrosswordBlackBlockView.swift; sourceTree = "<group>"; };
 		7AFA321E2A1720C500AC45BE /* ThemeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThemeView.swift; sourceTree = "<group>"; };
 		7AFA321F2A1720C500AC45BE /* GridView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
+		7AFA322A2A17236700AC45BE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,18 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				7AFA32022A17206C00AC45BE /* CrosswordPuzzleApp.swift */,
-				7AFA32122A1720A400AC45BE /* Array2D.swift */,
-				7AFA32102A1720A400AC45BE /* ArrayShuffle.swift */,
-				7AFA32112A1720A400AC45BE /* Color-Theme.swift */,
-				7AFA32162A1720B700AC45BE /* CrosswordsGenerator.swift */,
+				7AFA32282A17234200AC45BE /* Extension */,
+				7AFA322B2A17236B00AC45BE /* WordsGenerator */,
+				7AFA32292A17235C00AC45BE /* Views */,
 				7AFA32192A1720C400AC45BE /* ContentView.swift */,
-				7AFA321D2A1720C500AC45BE /* CrosswordBlackBlockView.swift */,
-				7AFA321B2A1720C500AC45BE /* CrosswordBlockView.swift */,
-				7AFA32182A1720C400AC45BE /* CrosswordKeyboard.swift */,
-				7AFA321A2A1720C500AC45BE /* CrosswordView.swift */,
-				7AFA321F2A1720C500AC45BE /* GridView.swift */,
-				7AFA321C2A1720C500AC45BE /* RootView.swift */,
-				7AFA321E2A1720C500AC45BE /* ThemeView.swift */,
 				7AFA32062A17206E00AC45BE /* Assets.xcassets */,
 				7AFA32082A17206E00AC45BE /* Preview Content */,
 			);
@@ -98,6 +91,39 @@
 				7AFA32092A17206E00AC45BE /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7AFA32282A17234200AC45BE /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA32122A1720A400AC45BE /* Array2D.swift */,
+				7AFA32102A1720A400AC45BE /* ArrayShuffle.swift */,
+				7AFA32112A1720A400AC45BE /* Color-Theme.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		7AFA32292A17235C00AC45BE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA322A2A17236700AC45BE /* ContentView.swift */,
+				7AFA321D2A1720C500AC45BE /* CrosswordBlackBlockView.swift */,
+				7AFA321B2A1720C500AC45BE /* CrosswordBlockView.swift */,
+				7AFA32182A1720C400AC45BE /* CrosswordKeyboard.swift */,
+				7AFA321A2A1720C500AC45BE /* CrosswordView.swift */,
+				7AFA321F2A1720C500AC45BE /* GridView.swift */,
+				7AFA321C2A1720C500AC45BE /* RootView.swift */,
+				7AFA321E2A1720C500AC45BE /* ThemeView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		7AFA322B2A17236B00AC45BE /* WordsGenerator */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA32162A1720B700AC45BE /* CrosswordsGenerator.swift */,
+			);
+			path = WordsGenerator;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
